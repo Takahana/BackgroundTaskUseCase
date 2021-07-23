@@ -1,0 +1,123 @@
+[versions]
+kotlin = "1.5.10"
+kotlinx = "1.5.0"
+androidx-appcompat = "1.2.0"
+androidx-core = "1.6.0-beta02"
+androidx-constraintlayout = "1.6.0-beta02"
+androidx-recyclerview = "1.2.1"
+androidx-lifecycle-core = "2.4.0-alpha01"
+androidx-lifecycle-viewmodel-compose = "1.0.0-alpha05"
+androidx-fragment = "1.3.0-beta01"
+androidx-browser = "1.3.0"
+androidx-paging = "3.0.0-alpha06"
+androidx-navigation = "2.3.5"
+androidx-test-core = "1.4.0-beta02"
+androidx-test-ext-junit = "1.0.0"
+androidx-work = "2.7.0-alpha04"
+androidx-hilt = "1.0.0"
+androidx-activity = "1.3.0-beta01"
+coil = "1.2.2"
+gson = "2.8.7"
+material-core = "1.3.0-alpha03"
+material-compose-theme-adapter = "1.0.0-beta08"
+groupie = "2.9.0"
+firebase-bom = "28.1.0"
+hilt = "2.36"
+retrofit = "2.9.0"
+okhttp = "4.9.1"
+conscrypt-android = "2.5.2"
+junit = "4.13.2"
+mockk = "1.11.0"
+robolectric = "4.5.1"
+truth = "1.1.3"
+kotpref = "2.13.1"
+store4 = "4.0.2-KT15"
+skywayclient = "1.0.9"
+androidx-swiperefreshlayout = "1.1.0"
+androidx-preference = "1.1.1"
+osslicenses = "17.0.0"
+ucrop = "2.2.7"
+compose = "1.0.0-beta08"
+hyperion = "0.9.32"
+accompanist = "0.11.0"
+
+[libraries]
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx-constraintlayout" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "androidx-recyclerview" }
+androidx-lifecycle-livedata = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "androidx-lifecycle-core" }
+androidx-fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "androidx-fragment" }
+androidx-browser = { module = "androidx.browser:browser", version.ref = "androidx-browser" }
+androidx-lifecycle-commonjava8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "androidx-lifecycle-core" }
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle-core" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle-viewmodel-compose" }
+androidx-paging = { module = "androidx.paging:paging-runtime", version.ref = "androidx-paging" }
+androidx-nav-fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx-navigation" }
+androidx-nav-ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "androidx-navigation" }
+androidx-test-core = { module = "androidx.test:core", version.ref = "androidx-test-core" }
+androidx-test-ext-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-test-ext-junit" }
+androidx-work-runtime = { module = "androidx.work:work-runtime-ktx", version.ref = "androidx-work" }
+androidx-work-testing = { module = "androidx.work:work-testing", version.ref = "androidx-work" }
+androidx-hilt-work = { module = "androidx.hilt:hilt-work", version.ref = "androidx-hilt" }
+androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "androidx-hilt" }
+androidx-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "androidx-swiperefreshlayout" }
+androidx-preference = { module = "androidx.preference:preference-ktx", version.ref = "androidx-preference" }
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "androidx-activity" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+androidx-compose-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose" }
+androidx-compose-material-core = { module = "androidx.compose.material:material", version.ref = "compose" }
+androidx-compose-material-icons-core = { module = "androidx.compose.material:material-icons-core", version.ref = "compose" }
+androidx-compose-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose" }
+androidx-compose-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "compose" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+material-core = { module = "com.google.android.material:material", version.ref = "material-core" }
+material-compose-theme-adapter = { module = "com.google.android.material:compose-theme-adapter", version.ref = "material-compose-theme-adapter" }
+groupie-core = { module = "com.xwray:groupie", version.ref = "groupie" }
+groupie-viewbinding = { module = "com.xwray:groupie-viewbinding", version.ref = "groupie" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
+firebase-core = { module = "com.google.firebase:firebase-core" }
+firebase-database = { module = "com.google.firebase:firebase-database" }
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-dynamic-links = { module = "com.google.firebase:firebase-dynamic-links-ktx" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
+hilt-android-core = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+retrofit-core = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+okhttp-core = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+okhttp-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+conscrypt-android = { module = "org.conscrypt:conscrypt-android", version.ref = "conscrypt-android" }
+junit = { module = "junit:junit", version.ref = "junit" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
+truth = { module = "com.google.truth:truth", version.ref = "truth" }
+kotpref-core = { module = "com.chibatching.kotpref:kotpref", version.ref = "kotpref" }
+kotpref-gson-support = { module = "com.chibatching.kotpref:gson-support", version.ref = "kotpref" }
+store4 = { module = "com.dropbox.mobile.store:store4", version.ref = "store4" }
+skywayclient = { module = "tech.takahana.skywayclient:skywayclient", version.ref = "skywayclient" }
+osslicenses = { module = "com.google.android.gms:play-services-oss-licenses", version.ref = "osslicenses" }
+ucrop = { module = "com.github.yalantis:ucrop", version.ref = "ucrop" }
+hyperion-core = { module = "com.willowtreeapps.hyperion:hyperion-core", version.ref = "hyperion" }
+hyperion-attr = { module = "com.willowtreeapps.hyperion:hyperion-attr", version.ref = "hyperion" }
+hyperion-disk = { module = "com.willowtreeapps.hyperion:hyperion-disk", version.ref = "hyperion" }
+hyperion-measurement = { module = "com.willowtreeapps.hyperion:hyperion-measurement", version.ref = "hyperion" }
+hyperion-sharedpreferences = { module = "com.willowtreeapps.hyperion:hyperion-shared-preferences", version.ref = "hyperion" }
+accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist" }
+accompanist-coil = { module = "com.google.accompanist:accompanist-coil", version.ref = "accompanist" }
+
+[bundles]
+androidx-navigation = ["androidx-nav-fragment", "androidx-nav-ui"]
+groupie = ["groupie-core", "groupie-viewbinding"]
+retrofit = ["retrofit-core", "retrofit-converter-gson", "okhttp-core", "okhttp-logging-interceptor", "conscrypt-android"]
+test-local = ["androidx-test-core", "androidx-test-ext-junit", "junit", "mockk", "robolectric", "truth", "androidx-work-testing"]
+kotpref = ["kotpref-core", "kotpref-gson-support"]
+accompanist = ["accompanist-pager", "accompanist-coil"]
+compose = ["androidx-lifecycle-viewmodel-compose", "androidx-activity-compose", "androidx-compose-ui", "androidx-compose-tooling", "androidx-compose-foundation", "androidx-compose-material-core", "androidx-compose-material-icons-core", "androidx-compose-material-icons-extended", "androidx-compose-runtime-livedata", "material-compose-theme-adapter"]
+hyperion = ["hyperion-core", "hyperion-attr", "hyperion-disk", "hyperion-measurement", "hyperion-sharedpreferences"]
