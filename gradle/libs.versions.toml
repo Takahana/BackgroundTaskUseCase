@@ -37,7 +37,7 @@ androidx-swiperefreshlayout = "1.1.0"
 androidx-preference = "1.1.1"
 osslicenses = "17.0.0"
 ucrop = "2.2.7"
-compose = "1.0.0-beta08"
+compose = "1.0.0-rc02"
 hyperion = "0.9.32"
 accompanist = "0.11.0"
 

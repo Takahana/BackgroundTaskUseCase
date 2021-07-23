@@ -1,4 +1,4 @@
-package tech.takahana.backgroundtaskusecase
+package tech.takahana.backgroundtaskusecase.feature.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,7 +8,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import tech.takahana.backgroundtaskusecase.ui.theme.BackgroundTaskUseCaseTheme
+import tech.takahana.backgroundtaskusecase.shared.feature.ui.theme.theme.BackgroundTaskUseCaseTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

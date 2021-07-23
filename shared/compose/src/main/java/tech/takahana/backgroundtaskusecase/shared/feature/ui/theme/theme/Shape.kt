@@ -1,4 +1,4 @@
-package tech.takahana.backgroundtaskusecase.ui.theme
+package tech.takahana.backgroundtaskusecase.shared.feature.ui.theme.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
