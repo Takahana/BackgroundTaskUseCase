@@ -1,0 +1,41 @@
+ext.buildConfig = [
+        'compileSdkVersion': 30,
+        'buildToolsVersion': '30.0.3',
+        'minSdkVersion'    : 21,
+        'targetSdkVersion' : 30,
+        'versionCode'      : 1,
+        'versionName'      : '1.0.0'
+]
+
+android {
+    compileSdkVersion buildConfig.compileSdkVersion
+    buildToolsVersion buildConfig.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion buildConfig.minSdkVersion
+        targetSdkVersion buildConfig.targetSdkVersion
+        versionCode buildConfig.versionCode
+        versionName buildConfig.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+        useIR = true
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    testOptions {
+        unitTests.includeAndroidResources = true
+    }
+}
