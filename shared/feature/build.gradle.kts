@@ -1,15 +1,15 @@
 plugins {
-    id("com.android.library")
-    id("kotlin-android")
+  id("com.android.library")
+  id("kotlin-android")
 }
 
-apply(from = rootProject.file("android_config.gradle"))
+apply(from = rootProject.file("android_config_no_compose.gradle"))
 
 dependencies {
 
-    api(libs.androidx.core)
-    api(libs.androidx.appcompat)
-    api(libs.material.core)
-    api(libs.bundles.test.local)
-    api(libs.androidx.constraintlayout)
+  api(libs.androidx.core)
+  api(libs.androidx.appcompat)
+  api(libs.material.core)
+  api(libs.bundles.test.local)
+  api(libs.androidx.constraintlayout)
 }
