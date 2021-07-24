@@ -1,4 +1,4 @@
-package tech.takahana.backgroundtaskusecase.ui
+package tech.takahana.backgroundtaskusecase
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
