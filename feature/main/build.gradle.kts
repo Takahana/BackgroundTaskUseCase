@@ -17,4 +17,5 @@ dependencies {
   implementation(projects.feature.runwhenfragmentclosed)
   implementation(projects.shared.compose)
   implementation(projects.shared.feature)
+  implementation(projects.shared.resource)
 }

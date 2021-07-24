@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">BackgroundTaskUseCase</string>
+    <string name="app_name" translatable="false">BackgroundTaskUseCase</string>
+
+    <!-- Main -->
+    <string name="main_run_when_fragment_closed_title">Run when the Fragment is closed</string>
 
     <!-- RunWhenFragmentClosed -->
-    <string name="run_when_fragment_closed_top_text">RunWhenFragmentClosed</string>
+    <string name="run_when_fragment_closed_top_text" translatable="false">RunWhenFragmentClosed</string>
 </resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BackgroundTaskUseCase</string>
+    <string name="main_run_when_fragment_closed_title">Fragmentを閉じた時に実行する</string>
+</resources>
