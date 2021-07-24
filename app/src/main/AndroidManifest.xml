@@ -3,6 +3,7 @@
     package="tech.takahana.backgroundtaskusecase">
 
     <application
+        android:name=".ui.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,7 +12,7 @@
         android:theme="@style/Theme.BackgroundTaskUseCase">
         <activity
             android:name=".feature.main.MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/app_name"
             android:theme="@style/Theme.BackgroundTaskUseCase.NoActionBar">
             <intent-filter>
