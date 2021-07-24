@@ -12,4 +12,6 @@ dependencies {
   api(libs.material.core)
   api(libs.bundles.test.local)
   api(libs.androidx.constraintlayout)
+  api(libs.androidx.fragment)
+  implementation(libs.androidx.lifecycle.commonjava8)
 }
