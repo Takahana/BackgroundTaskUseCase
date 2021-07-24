@@ -13,5 +13,6 @@ dependencies {
   api(libs.bundles.test.local)
   api(libs.androidx.constraintlayout)
   api(libs.androidx.fragment)
+  api(libs.androidx.lifecycle.runtime)
   implementation(libs.androidx.lifecycle.commonjava8)
 }

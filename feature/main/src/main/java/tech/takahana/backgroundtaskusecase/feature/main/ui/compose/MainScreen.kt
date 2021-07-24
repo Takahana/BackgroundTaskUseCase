@@ -6,14 +6,20 @@ import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun MainScreen() {
+fun MainScreen(
+  toRunWhenFragmentClosed: () -> Unit
+) {
   Column {
-    RunWhenFragmentClosedItem()
+    RunWhenFragmentClosedItem(
+      toRunWhenFragmentClosed = toRunWhenFragmentClosed
+    )
   }
 }
 
 @Preview(showSystemUi = true, device = Devices.PIXEL_4)
 @Composable
 fun PreviewMainScreen() {
-  MainScreen()
+  MainScreen(
+    toRunWhenFragmentClosed = {}
+  )
 }

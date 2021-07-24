@@ -1,5 +1,6 @@
 package tech.takahana.backgroundtaskusecase.feature.main.ui.compose
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -13,9 +14,12 @@ import androidx.compose.ui.unit.dp
 import tech.takahana.backgroundtaskusecase.shared.resource.R as ResR
 
 @Composable
-fun RunWhenFragmentClosedItem() {
+fun RunWhenFragmentClosedItem(
+  toRunWhenFragmentClosed: () -> Unit
+) {
   Column(
     modifier = Modifier
+      .clickable { toRunWhenFragmentClosed() }
       .fillMaxWidth()
       .padding(16.dp)
   ) {
@@ -29,5 +33,7 @@ fun RunWhenFragmentClosedItem() {
 @Preview
 @Composable
 fun PreviewRunWhenFragmentClosedItem() {
-  RunWhenFragmentClosedItem()
+  RunWhenFragmentClosedItem(
+    toRunWhenFragmentClosed = {}
+  )
 }
